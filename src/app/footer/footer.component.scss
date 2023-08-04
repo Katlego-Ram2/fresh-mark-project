@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+}
+
+$primaryColor: #cccccc;
+$secondaryColor: #fff;
+$currencyColor: #03c04a;
+$dateColor: #88807b;
+
+
+.footer{
+    width: 100%;
+    height: 110px;
+    background: $primaryColor;
+}
+
+.footer{
+    .list{
+        ul{
+            display: flex;
+            justify-content: space-between;
+            width: 50%;
+            margin-left: 65px;
+           
+            li{
+              list-style: none; 
+              font-size: 20px; 
+            }
+        }
+    }
+}
+
