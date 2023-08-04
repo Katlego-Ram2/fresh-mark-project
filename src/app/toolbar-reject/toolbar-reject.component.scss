@@ -1,0 +1,28 @@
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 20px;
+  }
+  
+  .management {
+    display: flex;
+    align-items: center;
+  }
+  
+  .management mat-icon {
+    margin-right: 5px;
+  }
+  
+  .threeDots {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .myspan {
+    
+    font-size: 16px;
+  }
+  

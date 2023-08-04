@@ -1,0 +1,88 @@
+.orderHistory{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.trader {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin-left: 40px;
+    padding: 5px; 
+  }
+  
+  .trader .input-wrapper {
+    position: relative;
+    flex: 1;
+    margin-left: 10px; 
+    
+
+  }
+  
+  .trader input {
+    display: flex;
+    width: 100%;
+    padding-right: 30px; 
+    box-sizing: border-box;
+    border: none; 
+    outline: none;
+   
+  }
+  
+  .trader mat-icon {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 90px;
+    margin: 0; 
+   
+  }
+  .Order1, .Order2, .Order3, .Order4 {
+  width: 350px;
+  height: 110px;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  margin-left: 50px;
+  padding: 1%;
+  
+}
+
+.wrapperOrders{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    margin-top: 5px;
+}
+
+.dropDown{
+    width: 250px;
+    margin-left: 50px;
+    font-size: 12px;
+    padding: 5px;
+    appearance: none;
+}
+
+label{
+    color: skyblue;
+
+}
+.input-wrapper input{
+display: flex;
+margin-left: 133px;
+background-color:white;
+
+}
+
+.input-wrapper mat-icon{
+    display: flex;
+    margin-left: 400px;
+}
+
+
+
+
+  
+  
+  
+  

@@ -1,0 +1,45 @@
+.bottom{
+    height: 240px;
+    width: 350px;
+    display: flex;
+    background-color: white;
+}
+
+.orderTwo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn1{
+    color: blue;
+    background-color: white;
+    width: 80px;
+    height: 25px;
+    border: none;
+    margin-top: 2%;
+
+
+}
+
+.datePicker{
+    color:lightgray;
+    padding-left: 150px;
+    font-size: smaller;
+    
+}
+
+.btn2{
+    color: red;
+    background-color: white;
+    width: 80px;
+    height: 25px;
+    border: none;
+      margin-top: 2%;
+
+}
