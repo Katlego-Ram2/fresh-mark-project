@@ -1,0 +1,32 @@
+.mainContainer{
+  padding-left: 2%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }  
+  
+  .navbar {
+    background-color: #333;
+    padding: 10px;
+  }  
+  
+  .navbar-item {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 2%;
+  }  
+  
+  .navbar-item a {
+    color:black;
+    text-decoration: none;
+    padding: 5px 30px;
+  }
+  
+  .product-link a{
+    color: blue;
+  }
+  
+  

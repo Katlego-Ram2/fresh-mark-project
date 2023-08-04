@@ -1,0 +1,125 @@
+.mainContainer{
+width: 100%;
+height: 100vh;
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.main{
+    padding-left: 2%;   
+  
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    
+}
+
+.menu{
+    display: flex;
+    padding-left: 350px;
+}
+
+
+.btn{
+    background-color: blue;
+    border-color: transparent;
+    display: flex;
+   margin-left: 520px;
+    width: 110px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+   
+
+}    
+    .navbar-item {
+        display: inline-block;     
+      
+    }    
+    
+    .navbar-item a {
+      color:black;
+      text-decoration: none;
+      padding: 5px 30px;
+    }
+    
+    .product-link a{
+      color: blue;
+    }   
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .row1, .row2, .row3 {
+        background-color: white;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 50%;
+        height: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }     
+    
+    .date-time {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }         
+    
+
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column; 
+        align-items: center;
+        .menu {
+            display: flex; 
+            padding-left: 0;
+            margin-top: 10px;
+        }
+        .btn {
+            margin-left: auto; 
+            margin-right: auto; 
+            margin-top: 10px; 
+        }
+    }
+    .navbar-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        .navbar-item {
+            margin-bottom: 5px;
+            a {
+                padding: 5px 0; 
+            }
+        }
+    }
+    .row1, .row2, .row3 {
+        width: 100%; 
+    }
+   .container {
+        width: 60%;
+    }
+}
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+    
