@@ -1,0 +1,29 @@
+*{
+    background-color: #E6E6E6;
+    color: black;
+    height: 90vh;
+  
+  
+}
+.mainContent{
+display: flex;
+flex-direction: column;
+gap:1%;
+height:100%;
+width: 100%;
+
+
+}
+app-tool-bar,app-footer{
+    height:10% ;
+ 
+}
+app-product-category{
+ height: 38%;  
+
+}
+app-sales-history{
+    height: 38%;  
+ 
+
+}

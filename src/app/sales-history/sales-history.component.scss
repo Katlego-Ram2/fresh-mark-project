@@ -1,0 +1,92 @@
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .pie-chart {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-color: #f2f2f2;
+        overflow: hidden;
+      }
+      
+      .slice {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 50%;
+        height: 100%;
+        transform-origin: left;
+        clip: rect(0, 125px, 250px, 0);
+      }
+      .slice-1-trans{
+        position: absolute;
+        left: 0%;
+        top: 23%;
+        transform: rotate(358deg);
+        color: black;
+        z-index: 10;
+      }
+      
+      .slice-2 {
+        transform: rotate(72deg);
+        background-color: #45B7B4;
+      }
+      .slice-2-trans{
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        transform: rotate(287deg);
+    }  
+      
+      .slice-3 {
+        transform: rotate(144deg);
+        background-color: #FFEE58;
+   
+      }
+    .slice-3-trans{
+        position: absolute;
+        left: 13%;
+        top: 25%;
+        transform: rotate(216deg);
+    }  
+
+      .slice-4 {
+        transform: rotate(216deg);
+        background-color: #64B5F6;
+      }
+
+      .slice-4-trans{
+        position: absolute;
+        left: 20%;
+        top: 13%;
+        transform: rotate(145deg);
+      }
+      
+      .slice-5 {
+        transform: rotate(288deg);
+        background-color: #EA7773;
+      }
+      @media screen  and (max-width:10px){
+        .mainContent{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+       
+     
+        }
+        .pie-chart {
+          width: 30px; 
+          height: 30px;
+      
+       
+        }
+        
+      }
+ 

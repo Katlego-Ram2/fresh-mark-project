@@ -1,0 +1,22 @@
+.links a{
+    text-decoration: none;
+    color: black;
+    gap:1%;
+    padding: 1%;
+    margin-left: 220px;
+}
+.links{
+display: flex;
+flex-direction: row;
+margin-top:40px;
+}
+// @media screen  and (max-width:1080px){
+// // .links{
+// // display: flex;
+// // flex-direction: row; 
+// // padding-bottom: 1000px;
+
+
+// //     }
+    
+//   }
