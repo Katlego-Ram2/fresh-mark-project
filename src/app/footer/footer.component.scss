@@ -1,4 +1,4 @@
-*{
+/**{
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -10,6 +10,11 @@ $secondaryColor: #fff;
 $currencyColor: #03c04a;
 $dateColor: #88807b;
 
+.main-container{
+    width: 820px;
+    margin: 0 auto;
+    border: 2px solid magenta;
+}
 
 .footer{
     width: 100%;
@@ -31,5 +36,5 @@ $dateColor: #88807b;
             }
         }
     }
-}
+}*/
 

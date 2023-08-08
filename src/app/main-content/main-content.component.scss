@@ -1,4 +1,4 @@
-*{
+/**{
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -10,7 +10,13 @@ $secondaryColor: #fff;
 $currencyColor: #03c04a;
 $dateColor: #88807b;
 
-$blacck: #060606;
+$black: #060606;
+
+.main-container{
+    width: 820px;
+    margin: 0 auto;
+    border: 2px solid magenta;
+}
 
 .toolBar{
     margin-top: 10px;
@@ -35,7 +41,7 @@ $blacck: #060606;
 
 .main-content{
     width: 100%;
-    height: 470px;
+    height: 398px;
     background: $primaryColor;
 }
 
@@ -100,4 +106,4 @@ $blacck: #060606;
 flex-direction: column;
 padding: 6px;
 
-}
+}*/

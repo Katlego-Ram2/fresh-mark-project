@@ -1,4 +1,4 @@
-*{
+/**{
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -14,10 +14,16 @@ $dateColor: #88807b;
 
 .toolBar{
     display: flex;
-    margin-top: 10px;
     width: 100%;
     height: 110px;
     background: $primaryColor;
+
+}
+
+.main-container{
+    width: 820px;
+    margin: 0 auto;
+    border: 2px solid magenta;
 }
 
 .arrow{
@@ -36,6 +42,6 @@ $dateColor: #88807b;
 .menu{
     margin-top: 30px; 
     margin-left: 660px;
-}
+}*/
 
 
