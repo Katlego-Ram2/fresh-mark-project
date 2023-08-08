@@ -17,6 +17,8 @@ import { ButtonsComponent } from './buttons/buttons.component';
 import { TopbarComponent } from './topbar/topbar.component';
 import { BootombarRejectComponent } from './bootombar-reject/bootombar-reject.component';
 import { Page2Component } from './page2/page2.component';
+import { ProfileComponent } from './profile/profile.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { Page2Component } from './page2/page2.component';
     ButtonsComponent,
     TopbarComponent,
     BootombarRejectComponent,
-    Page2Component
+    Page2Component,
+    ProfileComponent,
+    UserDetailsComponent
   ],
   imports: [
     BrowserModule,

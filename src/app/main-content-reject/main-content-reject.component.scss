@@ -1,33 +1,17 @@
-/* Default styles for all screen sizes */
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .rejectMain {
+.rejectMain{
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 40%;
     gap: 3%;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
-  }
-  
-  p {
+ 
+    height: 100%;
+    
+}
+
+p{
     display: flex;
     padding-left: 10px;
-  }
-  
-  /* Media query for mobile phones */
-  @media (max-width: 480px) {
-    .rejectMain {
-      margin-left: 10px; /* Reduce the left margin for better spacing on small screens */
-    }
-  
-    p {
-      padding-left: 5px; /* Reduce the padding on small screens */
-      text-align: center; /* Center the text on small screens */
-    }
-  }
-  
+   
+}

@@ -1,9 +1,10 @@
 .toolbar {
     display: flex;
     justify-content: space-between;
-    
+    width: 100%;
     gap: 20px;
-    margin-left: 20px;
+    
+   
   }
   
   .management {
@@ -16,7 +17,7 @@
   }
   
   .threeDots {
-    margin-left: 50px;
+  
     display: flex;
     align-items: center;
   }

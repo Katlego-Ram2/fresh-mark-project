@@ -1,9 +1,9 @@
 .toolbar {
     display: flex;
     justify-content: space-between;
-    justify-content: center;
-    gap: 20px;
-    margin-left: 20px;
+    width: 100vw;
+    
+    
   }
   
   .management {
@@ -19,6 +19,7 @@
     margin-left: 50px;
     display: flex;
     align-items: center;
+    
   }
   
   .myspan {

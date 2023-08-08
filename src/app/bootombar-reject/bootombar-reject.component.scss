@@ -1,15 +1,18 @@
 .bottom{
-    height: 240px;
+    height: 220px;
     width: 350px;
     display: flex;
+    margin-right: 2px;
     background-color: white;
+    color: black;
 }
 
 .orderTwo{
     display: flex;
-    flex-direction: column;
-    margin-left: 3%;
-    margin-top: 3%;
+        flex-direction: column;
+        text-align: left;
+        margin-top: 3%;
+        margin-left: 5%;
 }
 .btn{
     display: flex;
